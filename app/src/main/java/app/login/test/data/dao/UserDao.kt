@@ -15,6 +15,6 @@ interface UserDao {
     @Delete
     fun deleteUser(userEntity: UserEntity)
 
-    @Query("SELECT id FROM user_master WHERE id=:userId")
+    @Query("SELECT * FROM user_master WHERE id=:userId")
     fun fetchUserById(userId: Int): LiveData<UserEntity>
 }
