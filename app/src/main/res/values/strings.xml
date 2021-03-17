@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LoginTest</string>
+
+    <string name="error_internet">Please Check Your Internet Connection.</string>
+    <string name="please_wait">Please Wait…</string>
+
+    <!--    Login-->
+    <string name="enter_username">Enter username</string>
+    <string name="error_username_empty">Username can not be empty</string>
+    <string name="error_username_valid">Enter valid username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="login">Login</string>
+
+    <!--    Home-->
+    <string name="welcome">Welcome %s</string>
+
+</resources>
